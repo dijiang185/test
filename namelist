@@ -1,0 +1,33 @@
+&param
+nx       =          512,
+ny       =          512,
+cen_lon  =          140.0,
+cen_lat  =          15.0,
+timax    =         180000.0,
+deltat   =          10.0,
+write_nt =         600.0,
+theta    =           0.01,
+file_type=           1,
+np_lat   =           2,
+np_lon   =           3
+max_it_num=       5000
+/
+
+&param_case
+r1     =          18000.0,
+r2     =          22000.0,
+r3     =          38000.0,
+r4     =          42000.0,
+zeta1  =           0.0004,
+zeta2  =           0.0025,
+zeta3  =           0.0000,
+vort_amp=          1.0e-5,
+test_case=           1        
+/
+
+&sl_nml
+SL_its   =          10,
+SL_gdt   =          0.8,
+eddy_its =          2.5e-4,
+V_max    =          14.0
+/
